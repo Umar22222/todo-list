@@ -3,13 +3,13 @@ const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
-// LocalStorage'dan To-Do'larni olish
+// LocalStorage'dan To-do'larni olish
 function getTodos() {
   const todos = localStorage.getItem('todos');
   return todos ? JSON.parse(todos) : [];
 }
 
-// To-Do'ni LocalStorage'ga saqlash
+// To-do'ni LocalStorage'ga saqlash
 function saveTodos(todos) {
   localStorage.setItem('todos', JSON.stringify(todos));
 }
@@ -28,7 +28,7 @@ function renderTodos() {
   });
 }
 
-// To-Do qo'shish
+// To-do qo'shish
 todoForm.addEventListener('submit', function(event) {
   event.preventDefault();
   const todoText = todoInput.value.trim();

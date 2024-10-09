@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -75,7 +80,7 @@ body {
   
 
 
-  /* Umumiy tanlangan elementlar */
+
 * {
     margin: 0;
     padding: 0;
@@ -91,7 +96,7 @@ body {
     align-items: center;
   }
   
-  /* Container dizayni */
+
   .container {
     background: rgba(255, 255, 255, 0.1);
     padding: 40px;
@@ -110,7 +115,7 @@ body {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
   }
   
-  /* Form stili */
+
   form {
     display: flex;
     justify-content: space-between;
@@ -150,7 +155,7 @@ body {
     transform: translateY(5px);
   }
   
-  /* To-Do ro'yxati */
+
   ul {
     list-style: none;
     padding: 0;
